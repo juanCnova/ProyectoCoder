@@ -376,8 +376,6 @@ button,
 [type=button],
 [type=reset],
 [type=submit] 
-  
-
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -434,7 +432,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  
+
 }
 
 /* rtl:raw:
@@ -2487,7 +2485,7 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  
+ 
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -11302,7 +11300,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../assets/img/bg-masthead.jpg") no-repeat center center; 
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
