@@ -13,7 +13,7 @@ class Profesor(models.Model):
     nombre = models.CharField(max_length=20)
     apellido = models.CharField(max_length=20)
     mail = models.EmailField()
-    Profesion = models.CharField(max_length=20)
+    profesion = models.CharField(max_length=20)
 
 class Entegable(models.Model):
     nombre = models.CharField(max_length=20)
