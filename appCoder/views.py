@@ -23,4 +23,15 @@ def entregables(request):
     return render(request,'appCoder/entregables.html')
 
     
+def cursoFormulario(request):
+ 
+    if request.method == 'POST':
+        
+        curso = Curso(nombre = request.POST['curso'] , comision = request.POST['comision'])
+        curso.save()
+
+        return render(request,'appCoder/inicio.html')
+
+
+    return render(request , 'appCoder/cursoFormulario.html')
 
